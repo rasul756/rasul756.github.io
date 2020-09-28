@@ -1,0 +1,168 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+}
+
+.first_list {
+  height: 100vh;
+  width: 100%;
+  background-image: ;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+.header {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 15em;
+}
+
+.logotype img {
+  height: 5em;
+}
+
+.menu .menu__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin-left: 5em;
+  transition: all, 0.3s;
+}
+.menu__link:hover {
+  
+  padding-bottom: 1em;
+}
+
+.menu__link_active {
+  padding-bottom: 1em;
+}
+
+.search {
+  font-size: 2em;
+}
+
+.search:hover {
+  color: white;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.first_list__content__text {
+  color: white;
+  height: 40em;
+  width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first_list__content__text h2 {
+  font-size: 6em;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.dolor {
+  font-size: 1em;
+}
+
+.first_list__content__text p {
+  font-size: 1.8em;
+  line-height: 1.8;
+  word-spacing: 1px;
+}
+
+.first_list__content__text a {
+  text-decoration: none;
+  color: white;
+  padding: 0.9em 1.8em;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 2em;
+  border-radius: 0.3em;
+  transition: all, 0.3s;
+}
+.first_list__content__text a:hover {
+  background-color: #046404;
+}
+
+.first_list__footer {
+  display: flex;
+  flex-direction: row;
+  width: 1080px;
+  margin: auto;
+  height: 33em;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.social_media {
+  display: flex;
+  height: 15em;
+  align-items: center;
+}
+.social_media i {
+  color: white;
+  font-size: 2em;
+  border-radius: 50%;
+  padding: 0.5em;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  font-weight: 500;
+}
+
+.number {
+  display: flex;
+  height: 15em;
+  align-items: center;
+}
+
+.number__span {
+  font-size: 4em;
+  color: white;
+  word-spacing: 10px;
+}
+
+.number__span__span {
+  font-size: 2em;
+}
